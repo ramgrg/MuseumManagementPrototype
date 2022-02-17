@@ -1,0 +1,4 @@
+CREATE DATABASE MuseumPayments;
+USE MuseumPayments;
+
+CREATE TABLE IF NOT EXISTS Payments ( PaymentId INT NOT NULL AUTO_INCREMENT , BookingId VARCHAR(11) NOT NULL , PaymentAgent VARCHAR(20) NOT NULL , Amount INT NOT NULL, PRIMARY KEY (PaymentId));
